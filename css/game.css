@@ -1,0 +1,1270 @@
+*{	margin:0;	padding:0;}
+.bgx_clear{clear:both;}
+ul li {list-style: none;}
+.bgx_body {
+	width:100%;
+	height:66px;
+	background:url(../images/head_background.jpg) repeat;
+    background-size:auto; 
+    min-width: 1200px;
+}
+.bgx_head {
+    width:1200px;
+    height:66px;
+    margin: 0 auto;
+}
+.bgx_head div {
+	position: relative;
+}
+.bgx_second_head {
+	width:100%;
+	height:2px;
+	background-color:#f89620;
+}
+.bgx_sort_background {
+    width:100%;
+    height:22px;
+	background-color:#dcdcdc;
+}
+.bgx_sort {
+	width:1200px;
+	height:22px;
+	margin:0 auto;
+}
+.bgx_broadcast_background {
+	width:100%;
+	height:316px;
+	background-color:#000;
+	position: relative;
+}
+.bgx_head_foot {
+	width:100%;
+	height:3px;
+	background-image: url(../images/head_foot.png);
+}
+.bgx_broadcast_father {
+	width:1066px;
+	height:316px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.bgx_broadcast_father img {
+	width:1066px;
+	height:316px;
+	cursor: pointer;
+	display: none;
+}
+.bgx_broadcast_father:first-child img {
+	display: block;
+}
+.bgx_logo {
+	width:155px;
+	height:35px;
+	display:inline;
+	float:left;
+	margin:14px 0 0 107px;
+	background:url(../images/logo.png) no-repeat;
+}
+.bgx_chinese {
+	font-family: "微软雅黑",Arial;
+	font-size:13px;
+	color:#e2e2e2;
+	word-spacing: 0;
+}
+.bgx_english {
+	font-family: Arial;
+	font-size:6px;
+	color:#848484;
+}
+.bgx_home {
+	width:26px;
+	height:20px;
+	display:inline;
+	float:left;
+	margin:25px 0 0 19px;
+}
+.bgx_middle1,.bgx_middle2,.bgx_middle3,.bgx_middle4 {
+	display:inline;
+	width:3px;
+	height:35px;
+	float:left;
+	background:url(../images/head_cutoff.png) no-repeat;
+	margin:18px 0 0 24px;
+}
+.bgx_game_center {
+	width:52px;
+	height:21px;
+	display: inline;
+	float: left;
+	margin: 25px 0 0 10px;
+}
+.bgx_middle2 {
+	margin:18px 0 0 19px;
+}
+.bgx_account {
+	width:52px;
+	height:20px;
+	display:inline;
+	float:left;
+	margin:25px 0 0 7px;
+}
+.bgx_recharge,.bgx_enent,.bgx_service,.bgx_forum {
+	width:52px;
+	height:21px;
+	margin:25px 0 0 8px;
+	display:inline;
+	float:left;
+}
+.bgx_middle3 {
+	margin:18px 0 0 18px;
+}
+.bgx_middle4 {
+	margin:18px 0 0 21px;
+}
+.bgx_service {
+    margin:25px 0 0 6px;
+}
+.bgx_scroll {
+	width:267px;
+	height:26px;
+	display:inline;
+	float: left;
+	margin:23px 0 0 23px;
+	font-family: "宋体",Arial;
+	font-size:12px;
+	color: #999;
+	border:none;
+	line-height: 26px;
+	background: url(../images/head_input.png) left top no-repeat;
+	padding-left:7px;
+	cursor: pointer;
+}
+.bgx_newgame {
+	width:61px;
+	height:18px;
+	display:inline;
+	float:left;
+	margin:2px 0 0 113px;
+	background:url(../images/choosing.png);
+	font-family: "微软雅黑",Arial;
+	font-size:12px;
+	color:#FFF;
+	text-align: center;
+}
+.bgx_risk,.bgx_territory,
+.bgx_searobber,.bgx_touch,
+.bgx_seafarer,.bgx_two,
+.bgx_plains,.bgx_area,
+.bgx_three,.bgx_wolf,
+.bgx_angle,.bgx_xuanyuan,
+.bgx_arcade,.bgx_holl,
+.bgx_blood {
+	width:48px;
+	height:12px;
+	display: inline;
+	float:left;
+	margin:5px 0 0 14px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#626262;
+	line-height: 12px;
+}
+.bgx_territory,.bgx_seafarer {
+    margin:5px 0 0 17px;
+}
+.bgx_searobber {
+	width:60px;
+	margin:5px 0 0 18px;
+}
+.bgx_touch {
+	width:30px;
+	height:8px;
+	margin:7px 0 0 19px;
+}
+.bgx_two,.bgx_plains,
+.bgx_plains,.bgx_area,
+.bgx_three,.bgx_wolf,
+.bgx_holl,.bgx_xuanyuan,
+.bgx_arcade,.bgx_blood {
+	margin:5px 0 0 18px;
+}
+.bgx_area,.bgx_angle {
+	width:24px;
+}
+.bgx_three,.bgx_xuanyuan {
+	width:36px;
+}
+.bgx_broadcast111 {
+	width:1066px;
+	margin:-68px auto 0 auto;
+	height:68px;
+	background:url(../images/scroll_background.png);
+	position: relative;
+}
+.bgx_broadcast_foot {
+	width:1066px;
+	height:68px;
+	margin:0 auto;
+}
+.bgx_main_father {
+	width:100%;
+	height:2091px;
+	background-color:#e9e9e9;
+}
+.bgx_main {
+	width:1000px;
+	height:2091px;
+	margin: 0 auto;
+	position: relative;
+}
+.bgx_left {
+	width:225px;
+	height:1377px;
+	position: relative;
+	top:-190px;
+}
+.bgx_left1 {
+	width:225px;
+	height:295px;
+	background:url(../images/left1.png);
+}
+.bgx_text {
+	width:114px;
+	height:60px;
+	padding:79px 0 0 92px;
+}
+.bgx_top {
+	font-family: "宋体",Arial;
+	font-size:12px;
+	color:#8e8e8e;
+}
+.bgx_user {
+	font-family: "宋体",Arial;
+	font-size:14px;
+	color:#f15a21;
+	margin-top:5px;
+	font-weight: bold;
+}
+.bgx_bottom {
+	font-family: "宋体",Arial;
+	font-size:12px;
+	color:#f99d1f;
+	margin-top:5px;
+}
+.bgx_bottom div {
+	cursor: pointer;
+}
+.bgx_exit {
+	display: inline;
+	float:left;
+	width:33px;
+	text-decoration: underline;
+	border-right:1px solid #8e8e8e;
+}
+.bgx_charge {
+	display: inline;
+	float:left;
+	text-decoration: underline;
+	margin-left:8px;
+}
+.bgx_game_cloth {
+	width:213px;
+	height:137px;
+	margin:13px 0 0 5px;
+}
+.bgx_cloth_text {
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#f99d1f;
+	width:114px;
+	height:12px;
+	padding:6px 0 3px 46px;
+	line-height: 12px;
+}
+.bgx_cloth_content ul li {
+    width:193px;
+    height:20px;
+    margin:2px 0 0 10px;
+    background:url(../images/game_cloth.png) no-repeat;
+    font-family: "宋体",Arial;
+    font-size: 12px;
+    color:#FFF;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+.bgx_left2 {
+	width:225px;
+	height:49px;
+	margin:7px 0 0;
+	cursor: pointer;
+	background:url(../images/gift_center.png);
+}
+.bgx_game_list {
+	width:225px;
+	height:30px;
+	margin:7px 0 0;
+	background:url(../images/game_list_background.png);
+}
+.bgx_game_list_text {
+	font-family: "微软雅黑",Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color:#FFF;
+	padding:6px 0 0 12px;
+	display:inline;
+	float:left;
+}
+.bgx_add {
+	width:18px;
+	height:18px;
+	margin:6px 8px 0 0;
+	background:url(../images/game_list_right.png) no-repeat;
+	display:inline;
+	float:right;
+	cursor: pointer;
+}
+.bgx_add img {
+	margin:5px 0 0 5px;
+}
+.bgx_all_game {
+	width:225px;
+	height:41px;
+	border-bottom:1px solid #c8c8c8;
+	background-color:#e9e9e9;
+}
+.bgx_all_game div {
+	width:43px;
+	height:41px;
+	border-right:1px solid #d9d9d9;
+	border-left:1px solid #FFF;
+	display:inline;
+	float:left;
+	font-size: 12px;
+	font-family: "宋体",Arial;
+	color:#595959;
+	cursor: pointer;
+}
+.bgx_all_game div span {
+	width:24px;
+	height:26px;
+	margin:6px 0 0 9px;
+	display: block;
+}
+.bgx_all_game .bgx_current_all {
+	background:url(../images/game_all.png);
+	color:#FFF;
+}
+.bgx_hot {
+	width:224px;
+	height:47px;
+}
+.bgx_hot > img {
+	margin:4px 0 0 10px;
+	display:inline;
+	float:left;
+}
+.bgx_hot_img {
+    width:29px;
+    height:29px;
+    margin-left:195px;
+    padding-top: -20px;
+}
+.bgx_current_game {
+	background:url(../images/current_game.jpg) no-repeat;
+}
+.bgx_list ul li .bgx_decription {
+	width:65px;
+	height:16px;
+	margin:14px 0 0 7px;
+	font-family: "微软雅黑",Arial;
+	font-size: 16px;
+	color:#FFF;
+	display:block;
+	float:left;
+}
+.bgx_selection {
+	width:225px;
+	height:373px;
+    background:url(../images/choose_background.png);
+    position: absolute;
+    display: inline;
+    float: left;
+}
+.bgx_links {
+	width:224px;
+	height:29px;
+	background:url(../images/left_link_background.png) no-repeat;
+	margin-left:1px;
+}
+.bgx_links span {
+	width:39px;
+	height:12px;
+	display: block;
+	float:left;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#FFF;
+	text-align: left;
+	line-height: 12px;
+}
+.bgx_link1 {
+	margin:8px 0 0 18px;
+	border-right:1px solid #FFF;
+}
+.bgx_link2,.bgx_link3 {
+    border-right:1px solid #FFF;
+    margin:8px 0 0 14px;
+}
+.bgx_link4 {
+	margin:8px 0 0 14px;
+}
+.bgx_select {
+	position:relative;
+	width:221px;
+	height:340px;
+}
+.bgx_select_style {
+	width:176px;
+	height:18px;
+	margin:4px 0 6px 15px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+}
+.bgx_select_style img {
+    display:inline;
+    float:left;
+    margin:5px 0 0;
+}
+.bgx_select_style span {
+	display:block;
+	width:48px;
+	height:11px;
+	color:#5c5c5c;
+	margin:3px 0 0 7px;
+	float:left;
+	line-height: 11px;
+}
+.bgx_select_style div {
+	color:#FFF;
+	float:right;
+	display:inline;
+	width:58px;
+	height:18px;
+	background:url(../images/enter_game.png) no-repeat;
+	text-align: center;
+}
+.bgx_select14 div {
+	background:url(../images/instantly.png) no-repeat;
+}
+.bgx_list > ul {
+	display: inline;
+	float: left;
+	position:relative;
+}
+.bgx_add_more {
+	display: inline;
+	float: left;
+}
+.bgx_list  > ul > li {
+	width:224px;
+	height:45px;
+	background-color: #fffcf8;
+	border:1px solid #eee;
+	border-top:none;
+	display: inline;
+	float: left;
+	cursor: pointer;
+}
+.bgx_list > ul > li > img {
+	margin:3px 0 0 9px;
+	display: inline;
+	float:left;
+}
+.bgx_list > ul > li span {
+	width:auto;
+	height:16px;
+	display:block;
+	float:left;
+	margin:14px 0 0 7px;
+	font-family: "微软雅黑",Arial;
+	color:#898887;
+	font-size:16px;
+	line-height: 16px;
+}
+.bgx_add_more {
+	width:225px;
+	height:25px;
+	background:url(../images/left_foot.png) no-repeat;
+	font-size: 12px;
+	font-family:"微软雅黑",Arial; 
+	color:#fffefe;
+}
+.bgx_add_more span {
+	width:48px;
+	height:12px;
+	padding:7px 0 0 86px;
+	display:block;
+	line-height: 12px;
+}
+.bgx_center {
+	width:764px;
+	height:1812px;
+	position:absolute;
+	top:8px;
+	left:240px;
+}
+.bgx_center1 {
+	width:764px;
+	height:236px;
+}
+.bgx_center1 img {
+	margin-right:4px;
+	display: block;
+	float:left;
+	cursor: pointer;
+}
+.bgx_center2 {
+	width:773px;
+	height:193px;
+	margin:22px 0 0 -5px;
+	padding:0;
+	background:url(../images/center2_background.png) no-repeat;
+}
+.bgx_center2_main {
+	width:739px;
+	height:179px;
+	padding-top:7px;
+	margin-left:17px;
+}
+.bgx_data {
+	width:78px;
+	height:179px;
+	display:inline;
+	float:left;
+	position: relative;
+	background:url(../images/center_data.png) no-repeat;
+	cursor: pointer;
+}
+.bgx_week {
+	width:32px;
+	height:14px;
+	display:block;
+	margin:38px 0 0 23px;
+	font-family: "微软雅黑",Arial;
+	font-size: 16px;
+	color:#FFF;
+	line-height: 14px;
+}
+.bgx_month {
+	width:26px;
+	height:19px;
+	display:block;
+	font-family: Arial;
+	font-size: 26px;
+	color:#FFF;
+	margin:19px 0 0 4px;
+}
+.bgx_day {
+	width:42px;
+	height:29px;
+	display: block;
+	margin:12px 0 0 20px;
+	font-family: Arial;
+	font-size: 40px;
+	color:#b7a17e;
+}
+.bgx_date_detail {
+	width:271px;
+	height:211px;
+	margin-top:-145px;
+	background:url(../images/date_details.png);
+	display: inline;
+	float: left;
+	position: relative;
+	z-index: 9999;
+}
+.bgx_friday {
+	width:271px;
+}
+.bgx_detail_date {
+	width:70px;
+	height:94px;
+	margin:1px 0 0 9px;
+	float:left;
+	display:inline;
+}
+.bgx_span1 {
+	display: block;
+	width:28px;
+	height:19px;
+	margin:5px 0 0 5px;
+	font-family: arial;
+	font-size: 26px;
+	color:#FFF;
+	line-height: 19px;
+}
+.bgx_span2 {
+	display:block;
+	width:50px;
+	height:35px;
+	margin:6px 0 0 10px;
+	font-family: arial;
+	font-size: 48px;
+	color:#FFF;
+	line-height: 35px;
+}
+.bgx_span3 {
+	display: block;
+	width:32px;
+	height:14px;
+    line-height: 14px;
+    margin:10px 0 0 17px;
+    font-family: "微软雅黑",arial;
+    font-size: 16px;
+    color:#FFF;
+}
+.bgx_detail_game {
+	width:156px;
+	height:90px;
+	padding-left:26px;
+	margin-top:7px;
+	display: inline;
+	float:left;
+	line-height: 90px;
+}
+.bgx_detail_common {
+	width:131px;
+	height:19px;
+	margin:3px 0 0;
+	background:url(../images/date_detail_game.jpg) no-repeat;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#FFF;
+	line-height: 19px;
+	padding-left: 6px;
+}
+.bgx_detail_ads {
+	width:201px;
+	height:81px;
+	margin:116px 0 0 21px;
+}
+.bgx_detail_ads ul li {
+	width:205px;
+	height:12px;
+	margin:9px 0 0;
+	display:block;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#616161;
+	line-height: 12px;
+}
+.bgx_detail_ads ul li img {
+	display: inline;
+}
+.bgx_more {
+	width:41px;
+	height:13px;
+	background:url(../images/more.jpg) no-repeat;
+	margin:-2px 2px 0 0;
+	float:right;
+	font-family: "微软雅黑",Arial;
+	font-size: 7px;
+	font-weight: bold;
+	color: #ffdfb4;
+	text-align: center;
+	line-height: 13px;
+}
+.bgx_center3 {
+	width:763px;
+	height:237px;
+	margin:36px 0 0 -3px;
+	background:url(../images/new_game.png) no-repeat;
+}
+.bgx_center3 img {
+	cursor: pointer;
+}
+.bgx_new_game_text {
+	width:65px;
+	height:56px;
+	padding:0;
+	display:inline;
+	float:left;
+}
+.bgx_line1 {
+	display: block;
+	font-family: "微软雅黑",Arial;
+	font-size: 14px;
+	color:#FFF;
+	width:58px;
+	height:14px;
+	line-height: 14px;
+	padding:17px 0 0 12px;
+}
+.bgx_line2 {
+	display: block;
+	font-weight: bold;
+	font-size: 22px;
+	color:#ffed8b;
+    font-family: "微软雅黑",Arial;
+    margin:3px 0 0 12px;
+}
+.bgx_man1 {
+	background:url(../images/new_game_man1.png) no-repeat;
+	width:255px;
+	height:256px;
+	display: inline;
+	float: left;
+	margin:-18px 0 0 -57px;
+}
+.bgx_intro1,.bgx_intro2 {
+	width:151px;
+	height:195px;
+	margin:16px 0 0 -24px;
+	display: inline;
+	float:left;
+}
+.bgx_intro2 {
+	margin-left:52px;
+	width:167px;
+	height:175px;
+	z-index: 99999;
+	position: relative;
+}
+.bgx_intro1_title,.bgx_intro2_title {
+	width:80px;
+	height:20px;
+	margin-left:3px;
+	font-family: "微软雅黑",Arial;
+	font-size: 20px;
+	color:#e57c00;
+	line-height: 20px;
+}
+.bgx_intro2_title {
+	margin-top: 24px;
+	margin-left: 0;
+}
+.bgx_intro1_detail,.bgx_intro2_detail {
+	width:150px;
+	height:72px;
+	margin: 10px 0 0 2px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#5e5e5e;
+	line-height: 20px;
+}
+.bgx_intro2_detail {
+	margin-left:0;
+	width:168px;
+}
+.bgx_intro1_start,.bgx_intro2_start {
+	width:150px;
+	height:68px;
+	margin-top:21px;
+	margin-left:0;
+}
+.bgx_intro2_start {
+	margin-top:13px;
+}
+.bgx_intro1_start img,.bgx_intro2_start img {
+	display: inline-block;
+	float: left;
+}
+.bgx_intro1_links,.bgx_intro2_links {
+	width:68px;
+	height:68px;
+	margin-left:4px;
+	display: inline;
+	float: left;
+}
+.bgx_intro1_links ul li,.bgx_intro2_links ul li {
+	width:68px;
+	height:20px;
+	margin-bottom: 4px;
+	background: url(../images/game_link.jpg) no-repeat;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#f2f2f2;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.bgx_man2 {
+	display: inline;
+	float: left;
+	background:url(../images/new_game_man2.png) no-repeat;
+	width:248px;
+	height:264px;
+	margin:-15px 0 0 -94px;
+	z-index:1;
+	position: relative;
+}
+.bgx_center4 {
+	background:url(../images/foot_img1.png) no-repeat;
+}
+.bgx_game_list1,.bgx_game_list2,.bgx_game_list3 {
+	width:210px;
+	height:157px;
+	margin-left:12px;
+	padding-top:28px;
+	display: inline;
+	float:left;
+}
+.bgx_game_list2,.bgx_game_list3 {
+	margin-left:19px;
+}
+.bgx_game_play {
+	width:210px;
+	height:127px;
+	margin-left:1px;
+}
+.bgx_game_play img {
+	display: block;
+	float:left;
+}
+.bgx_game_intro {
+	width:108px;
+	height:127px;
+	margin-left:10px;
+	display: inline;
+	float: left;
+}
+.bgx_game_intro_title {
+	width:80px;
+	height:14px;
+	margin-top:1px;
+	font-family: "宋体",Arial;
+	font-size: 14px;
+	color:#ec9704;
+	font-weight: bold;
+	line-height: 14px;
+}
+.bgx_game_intro_detail {
+	width:110px;
+	height:60px;
+	margin:9px 0 0 1px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color: #5e5e5e;
+	line-height: 16px;
+}
+.bgx_game_intro_recommend {
+	background:url(../images/play_game.png) no-repeat;
+	width:100px;
+	height:29px;
+	margin-top:14px;
+	cursor: pointer;
+}
+.bgx_game_link {
+	width:210px;
+	height:20px;
+	margin-top:10px;
+}
+.bgx_game_link ul li {
+	display: inline;
+	float:left;
+	margin-right:3px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "宋体",Arial;
+	color: #f2f2f2;
+	background: url(../images/game_link.jpg) no-repeat;
+	width:68px;
+	height:20px;
+	cursor: pointer;
+}
+.bgx_game_link ul li:last-child {
+    margin:0;
+}
+.bgx_center5,.bgx_center4,
+.bgx_center6,.bgx_center7,
+.bgx_center8 {
+	width:771px;
+	height:228px;
+	margin:16px 0 0 -3px;
+}
+.bgx_center8 ul li {
+	cursor: pointer;
+}
+.bgx_center5 {
+    background: url(../images/foot_img2.png) no-repeat;
+}
+.bgx_center6 {
+	background: url(../images/foot_img3.png) no-repeat;
+}
+.bgx_center6 .bgx_line1 {
+	width:48px;
+	height:27px;
+	word-wrap:break-word;
+}
+.bgx_center7 {
+	background:url(../images/foot_img4.png) no-repeat;
+}
+.bgx_center7 .bgx_line1 {
+	font-size: 12px;
+	width:60px;
+}
+.bgx_center8 {
+	background:url(../images/question.png) no-repeat;
+	height:134px;
+}
+.bgx_question1 {
+	width:366px;
+	height:112px;
+	display:inline;
+	float:left;
+	margin:9px 0 0 14px;
+}
+.bgx_question1_title {
+	width:78px;
+	height:15px;
+	margin-left:140px;
+	font-size: 14px;
+	font-family: "微软雅黑",Arial;
+	color: #FFF;
+	font-weight: bold;
+	line-height: 15px;
+}
+.bgx_question1_title span {
+	font-family: arial;
+	font-size: 8px;
+	font-weight: normal;
+	color:#fdd9a9;
+}
+.bgx_question1_content {
+	width:366px;
+	height:71px;
+	margin-top:12px;
+}
+.bgx_question1_content ul li {
+	margin:7px 0;
+	width:183px;
+	height:12px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#707070;
+	display: inline;
+	float: left;
+}
+.bgx_question1_content ul li img {
+	width:3px;
+	height:5px;
+	padding:4px 6px 0 0;
+}
+.bgx_question2 {
+	width:203px;
+	height:101px;
+	display: inline;
+	float: left;
+	margin:10px 0 0 22px;
+}
+.bgx_question2_title,.bgx_question3_title {
+	width:107px;
+	height:14px;
+	margin-left:52px;
+	font-size: 14px;
+	font-family: "微软雅黑",Arial;
+	color: #FFF;
+	line-height: 15px;
+}
+.bgx_question3_title {
+	margin:6px 0 0 14px;
+}
+.bgx_question2_title span,.bgx_question3_title span {
+	font-family: arial;
+	font-size: 8px;
+	color:#fdd9a9;
+}
+.bgx_question2_content {
+	width:203px;
+	height:70px;
+	margin-top:17px;
+	position: absolute;
+}
+.bgx_question2_img {
+	width:198px;
+	height:24px;
+}
+.bgx_question2_img > div {
+	cursor: pointer;
+}
+.bgx_question2_img1 {
+	width:91px;
+	height:24px;
+	display: inline;
+	float: left;
+	background:url(../images/qq_background.png) no-repeat;
+}
+.bgx_question2_img2 {
+	width:98px;
+	height:18px;
+	display: inline;
+	float: right;
+	background:url(../images/Q&A.png) no-repeat;
+}
+.bgx_question_qq_icon {
+	width:18px;
+	height:20px;
+	display: inline-block;
+	float:left;
+	margin:-5px 0 0 9px;
+	background:url(../images/qq_icon.png);
+}
+.bgx_question_qq_text {
+	width:44px;
+	height:13px;
+	margin-left:3px;
+	font-size: 12px;
+	font-family: "微软雅黑",Arial;
+	font-weight: bold;
+	color:#FFF;
+	display: inline-block;
+	float:left;
+}
+.bgx_question2_img2 span {
+	width:90px;
+	height:14px;
+	display: inline-block;
+	margin:1px 0 0 11px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "微软雅黑",Arial;
+	color:#FFF;
+	line-height: 14px;
+}
+.bgx_question2_text {
+	width:168px;
+	height:12px;
+	margin:8px 0 0 18px;
+	font-size: 12px;
+	font-family: "宋体",Arial;
+	color:#8e8e8e;
+	display: inline;
+	float: left;
+}
+.bgx_phone {
+	width:201px;
+	height:11px;
+	margin:15px 0 0 1px;
+	float:left;
+}
+.bgx_phone div {
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#8e8e8e;
+}
+.bgx_question2_phone {
+	width:89px;
+	height:11px;
+	display: inline;
+	float: left;
+	line-height: 11px;
+}
+.bgx_question2_phone img,.bgx_question2_link img {
+	display: inline-block;
+	float: left;
+	margin-right: 4px;
+}
+.bgx_question2_link {
+	width:99px;
+	height:11px;
+	display: inline;
+	float: right;
+	line-height: 11px;
+}
+.bgx_question3 {
+	width:131px;
+	height:125px;
+	margin: 4px 0 0 24px;
+	display: inline;
+	float: left;
+}
+.bgx_download {
+	width:125px;
+	height:96px;
+	margin:13px 0 0 3px;
+}
+.bgx_download > div {
+	cursor: pointer;
+}
+.bgx_question3_link1,.bgx_question3_link2,
+.bgx_question3_link3 {
+	width:125px;
+	height:29px;
+	background:url(../images/download_background.png) no-repeat;
+	margin-top: 3px;
+}
+.bgx_question3_icon1 {
+	width:20px;
+	height:19px;
+	display: inline;
+	float: left;
+	margin:6px 0 0 11px;
+	background:url(../images/search.png) no-repeat;
+}
+.bgx_question3_icon2 {
+	width:31px;
+	height:17px;
+	display: inline;
+	float: left;
+	margin:8px 0 0 4px;
+	background: url(../images/client.png) no-repeat;
+}
+.bgx_question3_icon3 {
+	width:17px;
+	height:20px;
+	display: inline;
+	float: left;
+	margin:4px 0 0 10px;
+	background:url(../images/flash_icon.png) no-repeat;
+}
+.bgx_question3_text1,.bgx_question3_text2 {
+	width:58px;
+	height:12px;
+	margin:9px 0 0 17px;
+	font-family: "微软雅黑",Arial;
+	font-size: 12px;
+	color:#FFF;
+	line-height: 29px;
+}
+.bgx_question3_text2 {
+	margin-left: 13px;
+	width:60px;
+}
+.bgx_question3_text3 {
+	width:82px;
+	height:10px;
+	margin:11px 0 0 10px;
+	font-size: 10px;
+	font-family: arial;
+	color:#FFF;
+	line-height: 29px;
+}
+.bgx_footer {
+	width:1000px;
+	height:238px;
+	border-top:2px solid #fb952f;
+	margin:500px 100px 0 100px;
+	text-align: center;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#9e9e9e;
+	line-height: 22px;
+	padding-top: 8px;
+	margin:500px auto 0 auto;
+}
+a {
+	text-decoration: none;
+	color:#808080;
+}
+.bgx_broadcast_img {
+	width:770px;
+	height:67px;
+	margin-left:270px;
+}
+.bgx_broadcast_image1 {
+	width:11px;
+	height:19px;
+	display: inline-block;
+	float: left;
+	margin:24px 2px 0;
+	cursor: pointer;
+}
+.bgx_broadcast_image2 {
+	display: inline-block;
+	width:11px;
+	height:19px;
+	float: left;
+	margin:24px 0 0 4px;
+	cursor: pointer;
+}
+.bgx_broadcast_img1,.bgx_broadcast_img2,
+.bgx_broadcast_img3,.bgx_broadcast_img4 {
+	width:179px;
+	height:65px;
+	background: url(../images/broadcast_background.jpg) no-repeat;
+	display: inline;
+	float: left;
+	margin-top:0;
+	margin-left:2px;
+	border:2px solid #32363b;
+}
+.bgx_current_pic {
+	border-color:#e4931f;
+}
+.bgx_broadcast_img > div {
+	cursor: pointer;
+}
+.bgx_whole_img1 {
+	width:148px;
+	height:57px;
+	margin:5px 0 0 5px;
+}
+.bgx_broadcast_img1_head {
+	width:57px;
+	height:57px;
+	display: inline;
+	float: left;
+	background: url(../images/broadcast_img.jpg) no-repeat;
+}
+.bgx_broadcast_img1_text {
+	width:83px;
+	height: 31px;
+	margin: 3px 0 0 8px;
+	display: inline;
+	float: left;
+}
+.bgx_broadcast_text1 {
+	width:80px;
+	height:12px;
+	font-family: "宋体",Arial;
+	font-size: 12px;
+	color:#FFF;
+	line-height: 12px;
+	font-weight: bold;
+}
+.bgx_broadcast_text2 {
+	width:84px;
+	height:12px;
+	margin-top:8px;
+	font-size: 12px;
+	font-family: "宋体",Arial;
+	color:#9c9c9c;
+	line-height: 12px;
+}
+.bgx_float {
+	width:81px;
+	height:4px;
+	position: absolute;
+}
+.bgx_head_click,.bgx_home {
+	cursor: pointer;
+}
+.bgx_current_click div {
+	color:#e45722;
+}
+.bgx_second_head_click {
+	cursor: pointer;
+}
+.bgx_current_style {
+    color:#ec7500;
+}
+.bgx_hover_fly {
+	width:140px;
+	height:91px;
+	background: url(../images/hover.png) no-repeat;
+	position: absolute;
+}
+.bgx_hover_fly ul li {
+	width:119px;
+	height:12px;
+	font-size: 12px;
+	color: #FFF;
+	margin:9px 0 0 9px;
+}
+.bgx_hover_fly ul li .bgx_hover_span2 {
+	padding-left:47px;
+	color: #ffc342;
+}

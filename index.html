@@ -1,0 +1,672 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>游戏风云</title>
+	<script src="js/jquery-1.9.1.min.js" ></script>
+	<link rel="stylesheet" href="css/game.css" type="text/css" />
+	<link rel="stylesheet" href="css/jquery.jscrollpane.css" />
+    <script type="text/javascript" src="js/game.js" ></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+</head>
+<body>
+	<div class="bgx_body">
+		<div class="bgx_head">
+		 	<div class="bgx_logo"></div>
+		 	<div class="bgx_home bgx_current_click">
+		 	    <div class="bgx_chinese">首页</div>
+		 	    <div class="bgx_english">HOME</div>
+		 	</div>
+		 	<div class="bgx_middle1"></div>
+		 	<div class="bgx_game_center bgx_head_click">
+		 		<div class="bgx_chinese">游戏大厅</div>
+		 		<div class="bgx_english">GAME CENTER</div>
+		 	</div>
+		 	<div class="bgx_middle2"></div>
+		 	<div class="bgx_account bgx_head_click">
+		 		<div class="bgx_chinese">用户中心</div>
+		 		<div class="bgx_english">ACCOUT</div>
+		 	</div>
+		 	<div class="bgx_middle2"></div>
+		 	<div class="bgx_recharge bgx_head_click">
+		 		<div class="bgx_chinese">充值中心</div>
+		 		<div class="bgx_english">RECHARGE</div>
+		 	</div>
+		 	<div class="bgx_middle3"></div>
+		 	<div class="bgx_enent bgx_head_click">
+		 		<div class="bgx_chinese">游戏活动</div>
+		 		<div class="bgx_english">ENENT</div>
+		 	</div>
+		 	<div class="bgx_middle4"></div>
+		 	<div class="bgx_service bgx_head_click">
+		 		<div class="bgx_chinese">客服中心</div>
+		 		<div class="bgx_english">SERVICE</div>
+		 	</div>
+		 	<div class="bgx_middle2"></div>
+		 	<div class="bgx_forum bgx_head_click">
+		 		<div class="bgx_chinese">官方论坛</div>
+		 		<div class="bgx_english">FORUM</div>
+		 	</div>
+		 	<marquee class="bgx_scroll" scrollamount=2 behavior="scroll" direction="down" onmouseover=this.stop() onmouseout=this.start()>
+		 		6月28日《街机三国》风云20区重磅登录<br />
+		 		hahahha好简单呀<br />
+		 		真快，真方便！<br />
+		 		再来滚一个看看看看看看看看看看看啊看见<br />
+		 	</marquee>
+		 	<div class="bgx_clear"></div>
+		</div>
+		<div class="bgx_second_head"></div>
+		<div class="bgx_sort_background">
+			<div class="bgx_sort">
+			 	<div class="bgx_newgame">最新游戏</div>
+			 	<div class="bgx_risk bgx_second_head_click">冒险契约</div>
+			 	<div class="bgx_territory bgx_second_head_click">苍茫之境</div>
+			 	<div class="bgx_searobber bgx_second_head_click">大海贼时代</div>
+			 	<div class="bgx_touch bgx_second_head_click">Touch</div>
+			 	<div class="bgx_seafarer bgx_second_head_click">大航海家</div>
+			 	<div class="bgx_blood bgx_second_head_click">热血无双</div>
+			 	<div class="bgx_two bgx_second_head_click">绝代双骄</div>
+			 	<div class="bgx_plains bgx_second_head_click">九伐中原</div>
+			 	<div class="bgx_area bgx_second_head_click">霸域</div>
+			 	<div class="bgx_three bgx_second_head_click">战三国</div>
+			 	<div class="bgx_wolf bgx_second_head_click">龙狼三国</div>
+			 	<div class="bgx_holl bgx_second_head_click">新弹弹堂</div>
+			 	<div class="bgx_angle bgx_second_head_click">仙纪</div>
+			 	<div class="bgx_xuanyuan bgx_second_head_click">轩辕变</div>
+			 	<div class="bgx_arcade bgx_second_head_click">街机三国</div>
+			</div>
+		</div>
+		<div class="bgx_broadcast_background">
+		    <div class="bgx_broadcast_father">
+		    	<img src="images/broadcast1.png" />
+		    	<img src="images/logo.png" />
+		    	<img src="images/play_game.png" />
+		    	<img src="images/start_game.png" />
+		    </div>
+			<div class="bgx_broadcast111">
+			 	<div class="bgx_broadcast_img">
+			 		<img src="images/broadcast_left.png" class="bgx_broadcast_image1" />
+			 		<div data-value="0" class="bgx_broadcast_img1 bgx_click bgx_current_pic">
+			 			<div class="bgx_whole_img1">
+			 				<div class="bgx_broadcast_img1_head"></div>
+			 				<div class="bgx_broadcast_img1_text">
+			 					<div class="bgx_broadcast_text1">龙狼三国</div>
+			 					<div class="bgx_broadcast_text2">7月28日GSL开打</div>
+			 				</div>
+			 			</div>
+			 		</div>
+			 		<div data-value="1" class="bgx_broadcast_img2 bgx_click">
+			 			<div class="bgx_whole_img1">
+			 				<div class="bgx_broadcast_img1_head"></div>
+			 				<div class="bgx_broadcast_img1_text">
+			 					<div class="bgx_broadcast_text1">冒险契约</div>
+			 					<div class="bgx_broadcast_text2">7月28日GSL开打</div>
+			 				</div>
+			 			</div>
+			 		</div>
+			 		<div data-value="2" class="bgx_broadcast_img3 bgx_click">
+			 			<div class="bgx_whole_img1">
+			 				<div class="bgx_broadcast_img1_head"></div>
+			 				<div class="bgx_broadcast_img1_text">
+			 					<div class="bgx_broadcast_text1">大航海时代</div>
+			 					<div class="bgx_broadcast_text2">7月28日GSL开打</div>
+			 				</div>
+			 			</div>
+			 		</div>
+			 		<div data-value="3" class="bgx_broadcast_img4 bgx_click">
+			 			<div class="bgx_whole_img1">
+			 				<div class="bgx_broadcast_img1_head"></div>
+			 				<div class="bgx_broadcast_img1_text">
+			 					<div class="bgx_broadcast_text1">龙狼三国</div>
+			 					<div class="bgx_broadcast_text2">7月28日GSL开打</div>
+			 				</div>
+			 			</div>
+			 		</div>
+			 		<img src="images/broadcast_right.png" class="bgx_broadcast_image2" />
+			 	</div>
+			</div>
+		</div>
+		<div class="bgx_head_foot"></div>
+		<div class="bgx_main_father">
+			<div class="bgx_main">
+				<div class="bgx_left">
+				 	<div class="bgx_left1">
+				 		<div class="bgx_text">
+				 			<div class="bgx_top">您好,游戏风云欢迎您</div>
+				 			<div class="bgx_user">jy131408</div>
+				 			<div class="bgx_bottom">
+				 				<div class="bgx_exit">退出</div>
+				 				<div class="bgx_charge">充值</div>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_cloth">
+				 			<div class="bgx_cloth_text">您最近登录的游戏服:</div>
+			                <div class="bgx_cloth_content">
+			                	<ul>
+			                		<li class="bgx_content1">小小海贼王  180</li>
+			                		<li class="bgx_content2">小小海贼王  180</li>
+			                		<li class="bgx_content3">小小海贼王  180</li>
+			                		<li class="bgx_content4">小小海贼王  180</li>
+			                		<li class="bgx_content5">小小海贼王  180</li>
+			                	</ul>
+			                </div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_left2"></div>
+				 	<div class="bgx_left3">
+				 		<div class="bgx_game_list">
+				 			<div class="bgx_game_list_text">游戏列表</div>
+				 			<div class="bgx_add"><img src="images/game_list_add.png" /></div>
+				 		</div>
+				 		<div class="bgx_all_game">
+				 			<div class="bgx_game1 bgx_current_all"><span>所有游戏</span></div>
+				 			<div class="bgx_role"><span>角色扮演</span></div>
+				 			<div class="bgx_war"><span>战争策略</span></div>
+				 			<div class="bgx_leisure"><span>休闲竞技</span></div>
+				 			<div class="bgx_grow"><span>经营养成</span></div>
+				 		</div>
+				 		
+				 		<div class="bgx_list">
+				 			<ul>
+				 			    <li class="bgx_list0" bgx-sort="leisure">
+				 			        <img src="images/head_img1.png" />
+				 			        <span>苍茫之境</span>
+				 			        <div class="bgx_hot_img"><img src="images/hot.png" /></div>
+				 			    </li>
+				 				<li class="bgx_list1" bgx-sort="war">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list2" bgx-sort="leisure">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list3" bgx-sort="grow">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list4" bgx-sort="grow">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list5" bgx-sort="grow">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list6" bgx-sort="leisure">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list7" bgx-sort="leisure">
+				 					<img src="images/head_img_common.png" />
+				 					<span>大海贼时代</span>
+				 				</li>
+				 				<li class="bgx_list8" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list9" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list10" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list11" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list12" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list13" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list14" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list15" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list16" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list17" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list18" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 				<li class="bgx_list19" bgx-sort="role">
+				 					<img src="images/head_img_common.png" />
+				 					<span>冒险契约</span>
+				 				</li>
+				 			</ul>
+				 			<div class="bgx_add_more"><span>展开全部</span></div>
+				 		</div>
+				 	</div>
+				 </div>
+				 <div class="bgx_center">
+				 	<div class="bgx_center1">
+				 		<img src="images/center_img01.png" alt="" class="bgx_center_img01" />
+				 		<img src="images/center_img01.png" alt="" class="bgx_center_img02" />
+				 		<img src="images/center_img01.png" alt="" class="bgx_center_img03" />
+				 		<img src="images/center_img01.png" alt="" class="bgx_center_img04" />
+				 	</div>
+				 	<div class="bgx_center2">
+				 		<div class="bgx_center2_main">
+				 		    <div class="bgx_monday bgx_data">
+				 				<span class="bgx_week">周一</span>
+				 				<span class="bgx_month">08</span>
+				 				<span class="bgx_day">28</span>
+				 			</div>
+				 			<div class="bgx_tuesday bgx_data">
+				 				<span class="bgx_week">周二</span>
+				 				<span class="bgx_month">08</span>
+				 				<span class="bgx_day">28</span>
+				 			</div>
+				 			<div class="bgx_wednesday bgx_data">
+				 				<span class="bgx_week">周三</span>
+				 				<span class="bgx_month">08</span>
+				 				<span class="bgx_day">29</span>
+				 			</div>
+				 			<div class="bgx_thursday bgx_data">
+				 				<span class="bgx_week">周四</span>
+				 				<span class="bgx_month">08</span>
+				 				<span class="bgx_day">30</span>
+				 			</div>
+				 			<div class="bgx_friday bgx_data">
+				 				<span class="bgx_week">周五</span>
+				 				<span class="bgx_month">09</span>
+				 				<span class="bgx_day">02</span>
+				 				<div class="bgx_date_detail">
+									<div class="bgx_detail_date">
+										<div class="bgx_span1">09</div>
+										<div class="bgx_span2">02</div>
+										<div class="bgx_span3">周五</div>
+									</div>
+									<div class="bgx_detail_game">
+										<div class="bgx_detail_game1 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game2 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game3 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game4 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game2 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game3 bgx_detail_common">小小海贼王  180</div>
+										<div class="bgx_detail_game4 bgx_detail_common">小小海贼王  180</div>
+									</div>
+									<div class="bgx_detail_ads">
+										<ul>
+											<li class="bgx_ads1">
+										  		<img src="images/list-style.jpg" alt="" />
+										   		《冒险契约》夏日大作战——蓝海的
+											</li>
+											<li class="bgx_ads2">
+										   		<img src="images/list-style.jpg" alt="" />
+										    	《小小海贼王》周末活动
+											</li>
+											<li class="bgx_ads3">
+										    	<img src="images/list-style.jpg" alt="" />
+										    	8月2日14:00二测开启 七大活动鼎
+											</li>
+											<li class="bgx_ads4">
+									        	<img src="images/list-style.jpg" alt="" />
+									        	《神将三国》暑期盛夏七月天 礼从
+									    	</li>
+										</ul>
+									</div>
+									<div class="bgx_more">MORE</div>
+								</div>
+				 			</div>
+				 			<div class="bgx_saturday bgx_data">
+				 				<span class="bgx_week">周六</span>
+				 				<span class="bgx_month">09</span>
+				 				<span class="bgx_day">01</span>
+				 			</div>
+				 			<div class="bgx_sunday bgx_data">
+				 				<span class="bgx_week">周日</span>
+				 				<span class="bgx_month">09</span>
+				 				<span class="bgx_day">02</span>
+				 			</div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_center3">
+				 		<div class="bgx_new_game_text">
+				 			<span class="bgx_line1">最新游戏</span>
+				 			<span class="bgx_line2">推荐</span>
+				 		</div>
+				 		<div class="bgx_man1"></div>
+				 		<div class="bgx_intro1">
+				 			<div class="bgx_intro1_title">龙狼三国</div>
+				 			<div class="bgx_intro1_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理；炫丽的技能、拉风的坐骑...
+				 			</div>
+				 			<div class="bgx_intro1_start">
+				 				<img src="images/start_game.png" />
+				 				<div class="bgx_intro1_links">
+				 					<ul>
+				 						<li class="bgx_intro1_link1">官网</li>
+				 						<li class="bgx_intro1_link2">服务器列表</li>
+				 						<li class="bgx_intro1_link3">新手礼包</li>
+				 					</ul>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_intro2">
+				 			<div class="bgx_intro2_start">
+				 				<img src="images/start_game.png" />
+				 				<div class="bgx_intro2_links">
+				 					<ul>
+				 						<li class="bgx_intro2_link1">官网</li>
+				 						<li class="bgx_intro2_link2">服务器列表</li>
+				 						<li class="bgx_intro2_link3">新手礼包</li>
+				 					</ul>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_intro2_title">冒险契约</div>
+				 			<div class="bgx_intro2_detail">在《冒险契约》的世界里，唯美清新的场景、丰富多样的游戏玩法、简介流畅的操作体验...
+				 			</div>
+				 		</div>
+				 		<div class="bgx_man2"></div>
+				 	</div>
+				 	<div class="bgx_center4">
+				 		<div class="bgx_new_game_text">
+				 			<span class="bgx_line1">比比西</span>
+				 			<span class="bgx_line2">推荐</span>
+				 		</div>
+				 		<div class="bgx_game_list1">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list2">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list3">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_center5">
+				 		<div class="bgx_new_game_text">
+				 			<span class="bgx_line1">MISS</span>
+				 			<span class="bgx_line2">推荐</span>
+				 		</div>
+				 		<div class="bgx_game_list1">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list2">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list3">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_center6">
+				 		<div class="bgx_new_game_text">
+				 			<span class="bgx_line1">MAGICYANG</span>
+				 			<span class="bgx_line2">推荐</span>
+				 		</div>
+				 		<div class="bgx_game_list1">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list2">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list3">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_center7">
+				 		<div class="bgx_new_game_text">
+				 			<span class="bgx_line1">其他主持人</span>
+				 			<span class="bgx_line2">推荐</span>
+				 		</div>
+				 		<div class="bgx_game_list1">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list2">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_game_list3">
+				 			<div class="bgx_game_play">
+				 				<img src="images/small_man.png" alt="" />
+				 				<div class="bgx_game_intro">
+				 					<div class="bgx_game_intro_title">龙狼三国</div>
+				 					<div class="bgx_game_intro_detail">《龙狼三国》是一款2D横版策略RPG网页游戏，由“游戏风云”独家代理...</div>
+				 					<div class="bgx_game_intro_recommend"></div>
+				 				</div>
+				 			</div>
+				 			<div class="bgx_game_link">
+				 				<ul>
+				 					<li class="bgx_game_link1">官网</li>
+				 					<li class="bgx_game_link2">服务器列表</li>
+				 					<li class="bgx_game_link3">新手礼包</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 	</div>
+				 	<div class="bgx_center8">
+				 		<div class="bgx_question1">
+				 			<div class="bgx_question1_title">常见问题 <span>FAQ</span></div>
+				 			<div class="bgx_question1_content">
+				 				<ul>
+				 					<li><img src="images/question-introduce.png" />如何为游戏进行充值?</li>
+				 					<li><img src="images/question-introduce.png" />游戏界面显示不正常怎办?</li>
+				 					<li><img src="images/question-introduce.png" />怎样查询自己的充值记录?</li>
+				 					<li><img src="images/question-introduce.png" />如何使用邮箱找回密码?</li>
+				 					<li><img src="images/question-introduce.png" />充值中心新手指南常见问题?</li>
+				 					<li><img src="images/question-introduce.png" />什么是实名注册,如何使用注册?</li>
+				 				</ul>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_question2">
+				 			<div class="bgx_question2_title">联系客服 <span>SERVICE</span></div>
+				 			<div class="bgx_question2_content">
+				 				<div class="bgx_question2_img">
+				 					<div class="bgx_question2_img1">
+				 					    <span class="bgx_question_qq_icon"></span>
+				 					    <span class="bgx_question_qq_text">QQ交谈</span>
+				 					</div>
+				 					<div class="bgx_question2_img2"><span>在线答疑Q&A</span></div>
+				 				</div>
+				 				<div class="bgx_question2_text">（只处理充值、会员信息问题）</div>
+				 				<div class="bgx_question2_tel">
+				 					<div class="bgx_question2_tel1"></div>
+				 					<div class="bgx_question2_tel2"></div>
+				 				</div>
+				 				<div class="bgx_phone">
+				 					<div class="bgx_question2_phone"><img src="images/phone.png" />400-820-3926</div>
+				 					<div class="bgx_question2_link"><img src="images/link.png" />kefu@gamefy.cn</div>
+				 				</div>
+				 			</div>
+				 		</div>
+				 		<div class="bgx_question3">
+				 			<div class="bgx_question3_title">常用下载 <span>DOWNLOAD</span></div>
+				 			<div class="bgx_download">
+				 				<div class="bgx_question3_link1">
+				 					<div class="bgx_question3_icon1"></div>
+				 					<dic class="bgx_question3_text1">IP地址查询</dic>
+				 				</div>
+				 				<div class="bgx_question3_link2">
+				 					<div class="bgx_question3_icon2"></div>
+				 					<dic class="bgx_question3_text2">狼队客户端</dic>
+				 				</div>
+				 				<div class="bgx_question3_link3">
+				 					<div class="bgx_question3_icon3"></div>
+				 					<dic class="bgx_question3_text3">adobe flash player</dic>
+				 				</div>
+				 			</div>
+				 		</div>
+				 	</div>
+				</div>
+				<div class="bgx_footer">
+				     健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活<br />
+				     <a href="">关于我们 </a>|<a href=""> 人才招聘 </a>|<a href=""> 投诉建议 </a>|<a href=""> 客户热线 </a>|<a href=""> 网游合作</a><br />
+				     Copyright 2001-2011 游戏风云-版权所有，沪ICP备06061673号<br />
+				     网络文化经营许可证：文网文[2010]0387-014号 广播电视节目制作经营许可证：(沪)字第177号<br />Powered by gamefy.cn
+				</div>
+			</div>
+		</div>
+	</div>
+	 <div class="bgx_float"><img src="images/mark.png" /></div>
+</body>
+</html>
